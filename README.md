@@ -8,39 +8,96 @@ Did you know that the average return from investing in stocks is 10% per year (h
 
 This project entails providing support to an investment firm by conducting analyses of trends among high-growth companies. The objective is to identify which industries are generating the highest company valuations and to assess how quickly new high-value companies are emerging. The insights from this analysis will help the firm better understand current industry trends and make informed decisions on how to optimize and structure their investment portfolio for future growth.
 
-### Data Sources
+<h2>Data Sources</h2>
+<p>We have been given access to their <code>unicorns</code> database, which contains the following tables:</p>
 
-We have been given access to their `unicorns` database, which contains the following tables:
+<h3>dates</h3>
+<table>
+  <tr>
+    <th>Column</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>company_id</td>
+    <td>A unique ID for the company.</td>
+  </tr>
+  <tr>
+    <td>date_joined</td>
+    <td>The date that the company became a unicorn.</td>
+  </tr>
+  <tr>
+    <td>year_founded</td>
+    <td>The year that the company was founded.</td>
+  </tr>
+</table>
 
-#### dates
-| Column        | Description                                  |
-| ------------  | -------------------------------------------- |
-| `company_id`  | A unique ID for the company                  |
-| `date_joined` | The date that the company became a unicorn   |
-| `year_founded`| The year that the company was founded        |
+<h3>funding</h3>
+<table>
+  <tr>
+    <th>Column</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>company_id</td>
+    <td>A unique ID for the company.</td>
+  </tr>
+  <tr>
+    <td>valuation</td>
+    <td>Company value in US dollars.</td>
+  </tr>
+  <tr>
+    <td>funding</td>
+    <td>The amount of funding raised in US dollars.</td>
+  </tr>
+  <tr>
+    <td>select_investors</td>
+    <td>A list of key investors in the company.</td>
+  </tr>
+</table>
 
-#### funding
-| Column             | Description                                  |
-| ----------------   | -------------------------------------------- |
-| `company_id`       | A unique ID for the company                  |
-| `valuation`        | Company value in US dollars                  |
-| `funding`          | The amount of funding raised in US dollars   |
-| `select_investors` | A list of key investors in the company       |
+<h3>industries</h3>
+<table>
+  <tr>
+    <th>Column</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>company_id</td>
+    <td>A unique ID for the company.</td>
+  </tr>
+  <tr>
+    <td>industry</td>
+    <td>The industry that the company operates in.</td>
+  </tr>
+</table>
 
-#### industries
-| Column       | Description                                  |
-| ------------ | -------------------------------------------- |
-| `company_id` | A unique ID for the company                  |
-| `industry`   | The industry that the company operates in    |
-
-#### companies
-| Column       | Description                                       |
-| ------------ | ------------------------------------------------- |
-| `company_id` | A unique ID for the company                       |
-| `company`    | The name of the company                           |
-| `city`       | The city where the company is headquartered       |
-| `country`    | The country where the company is headquartered    |
-| `continent`  | The continent where the company is headquartered  |
+<h3>companies</h3>
+<table>
+  <tr>
+    <th>Column</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>company_id</td>
+    <td>A unique ID for the company.</td>
+  </tr>
+  <tr>
+    <td>company</td>
+    <td>The name of the company.</td>
+  </tr>
+  <tr>
+    <td>city</td>
+    <td>The city where the company is headquartered.</td>
+  </tr>
+  <tr>
+    <td>country</td>
+    <td>The country where the company is headquartered.</td>
+  </tr>
+  <tr>
+    <td>continent</td>
+    <td>The continent where the company is headquartered.</td>
+  </tr>
+</table>
 
 ### Exploratory Data Analysis (EDA)
 
