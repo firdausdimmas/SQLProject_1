@@ -2,6 +2,8 @@
 
 ### Project Overview
 
+![business](https://github.com/user-attachments/assets/9a5c4c38-839b-45a2-8436-3759c820978b)
+
 Did you know that the average return from investing in stocks is 10% per year (https://www.nerdwallet.com/article/investing/average-stock-market-return) (not accounting for inflation)? But who wants to be average?! 
 
 This project entails providing support to an investment firm by conducting analyses of trends among high-growth companies. The objective is to identify which industries are generating the highest company valuations and to assess how quickly new high-value companies are emerging. The insights from this analysis will help the firm better understand current industry trends and make informed decisions on how to optimize and structure their investment portfolio for future growth.
