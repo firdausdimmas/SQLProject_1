@@ -105,5 +105,4 @@ Based on the analysis, we recommend the following actions:
 - The firm should prioritize allocating more funds to financial technology startups, as this sector demonstrates both high growth and strong investor confidence.
 -  Expand investments into Internet Software & Services and E-commerce & Direct-to-Customer (D2C) sectors, as these industries also show strong unicorn growth, particularly driven by digital transformation and changing consumer behavior.
 -  Since 2021 recorded a record number of new unicorns, this indicates a strong post-pandemic recovery and investor appetite for high-growth startups. The firm should consider acting quickly to capitalize on favorable market conditions before they normalize.
--  
 
