@@ -2,7 +2,7 @@
 
 ### Project Overview
 
-![business](https://github.com/user-attachments/assets/9a5c4c38-839b-45a2-8436-3759c820978b)
+![consulting](https://github.com/user-attachments/assets/eb1be9a4-9eb6-4eb8-b4f7-2ea1acdbea96)
 
 Did you know that the average return from investing in stocks is 10% per year (https://www.nerdwallet.com/article/investing/average-stock-market-return) (not accounting for inflation)? But who wants to be average?! 
 
@@ -46,7 +46,7 @@ We have been given access to their `unicorns` database, which contains the follo
 
 EDA involved exploring the unicorns database to answer key questions, such as:
 - Which industries produced the highest number of unicorns between 2019 and 2021?
-- In which year did the highest number of unicorns emerge within the top industries — 2019, 2020, or 2021?
+- In which year did the highest number of unicorns emerge within the top industries?
 - Are there significant differences in average valuations across industries?
 
 ### Data Analysis
